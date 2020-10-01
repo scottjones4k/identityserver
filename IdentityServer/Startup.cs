@@ -47,7 +47,6 @@ namespace IdentityServer
             // in-memory, code config
             builder.AddInMemoryIdentityResources(Config.IdentityResources);
             builder.AddInMemoryApiScopes(Config.ApiScopes);
-            builder.AddInMemoryClients(Config.Clients);
             
             builder.AddCustomUserStore();
 

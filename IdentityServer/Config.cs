@@ -22,11 +22,5 @@ namespace IdentityServer
                 new ApiScope("scope1"),
                 new ApiScope("scope2"),
             };
-
-        public static IEnumerable<Client> Clients =>
-            new Client[]
-            {
-
-            };
     }
 }
